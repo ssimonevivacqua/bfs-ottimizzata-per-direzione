@@ -5,7 +5,7 @@ Algoritmo di Visita in Ampiezza basato sul modello Barabási-Albert, con confron
 Punti salienti:
 
 - Generatore di grafi randomici regolari e non (GraphGenerator.c).
-- Generaore di sorgenti randomico (si appoggia a mt19937ar) (SourceGenerator.c).
+- Generatore di sorgenti randomico (si appoggia a mt19937ar) (SourceGenerator.c).
 - Import di grafi in C (GraphImporter.c).
 - Gestione dei flussi di output.
 
