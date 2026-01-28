@@ -8,4 +8,4 @@ Punti salienti:
   - matrici di adiacenza,
   - matrici compresse.
 
-- Il progetto si basava soprattutto sull'ottimizazione in memoria ed il confronto delle varie implementazioni, per questo motivo la versione multi-thread è stata implementata tramite l'uso di una libreria OpenMP in modo da semplificarne il processo.
+- Il progetto si basa soprattutto sull'ottimizazione in memoria ed il confronto delle varie implementazioni, per questo motivo la versione multi-thread è stata implementata tramite l'uso di una libreria OpenMP in modo da semplificarne il processo.
