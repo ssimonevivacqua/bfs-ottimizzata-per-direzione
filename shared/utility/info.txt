@@ -1,0 +1,3 @@
+7000 -> watts
+9000 -> holme
+8000 -> barabasi
