@@ -82,8 +82,7 @@ void nGenerateGraphs(char *directory, int n, int num_nodes) {
         snprintf(filepath, sizeof(filepath), "%sgraph_%d.txt", directory, num_nodes);
 
         if(BA){
-            //if(i == -1)       //DA RIMMUOVEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-                generateBarabasiUndirectedGraph(filepath, num_nodes);   //grafi scale free
+            generateBarabasiUndirectedGraph(filepath, num_nodes);   //grafi scale free
         }
         else if(NW)
             generateWattsUndirectedGraphs(filepath, num_nodes);     //grafi small world
