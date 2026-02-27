@@ -1,4 +1,9 @@
 # Algoritmo di Visita in Ampiezza ottimizzata per direzione con confronto tra implementazioni di strutture dati
+La Breadth-First Search (BFS) è uno degli algoritmi fondamentali per l’esplorazione dei grafi ed è ampiamente utilizzata in ambiti come reti, analisi di grafi sociali, sistemi distribuiti e motori di ricerca.
+
+Quando si lavora con grafi di grandi dimensioni, l’efficienza dell’algoritmo dipende fortemente dalla struttura dati utilizzata e dalla gestione della memoria. In questo progetto viene analizzata una variante ottimizzata per direzione, in cui la strategia di visita si adatta dinamicamente in base alle caratteristiche del grafo e alla dimensione della frontiera.
+
+
 Implementazione in C della Breadth-First Search (BFS) ottimizzata per direzione, progettata per analizzare e confrontare diverse rappresentazioni dei grafi e valutarne l’impatto su prestazioni e utilizzo della memoria.
 
 Il progetto include:
