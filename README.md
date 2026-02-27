@@ -1,4 +1,4 @@
-# visita_in_ampiezza_ottimizzata_per_direzione
+# Algoritmo di Visita in Ampiezza ottimizzata per direzione con confronto tra implementazioni di strutture dati
 Algoritmo di Visita in Ampiezza basato sul modello Barabási-Albert, con confronto tra le differenti implementazioni delle strutture dati per la rappresentazione dei grafi, e tra la versione sequenziale e multi-thread, con particolare attenzione all'ottimizzazione della memoria.
 
 
