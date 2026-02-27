@@ -1,5 +1,19 @@
 # Algoritmo di Visita in Ampiezza ottimizzata per direzione con confronto tra implementazioni di strutture dati
-Algoritmo di Visita in Ampiezza basato sul modello Barabási-Albert, con confronto tra le differenti implementazioni delle strutture dati per la rappresentazione dei grafi, e tra la versione sequenziale e multi-thread, con particolare attenzione all'ottimizzazione della memoria.
+Implementazione in C della Breadth-First Search (BFS) ottimizzata per direzione, progettata per analizzare e confrontare diverse rappresentazioni dei grafi e valutarne l’impatto su prestazioni e utilizzo della memoria.
+
+Il progetto include:
+
+Confronto tra diverse strutture dati per la rappresentazione dei grafi (liste di adiacenza, matrici di adiacenza, matrici compresse).
+
+Implementazione sequenziale e versione parallela tramite OpenMP.
+
+Generazione di grafi casuali (regolari e modello Barabási-Albert).
+
+Implementazione di strutture ausiliarie ottimizzate (code, bitset, ecc.).
+
+Misurazione e analisi delle performance in termini di tempo di esecuzione e consumo di memoria.
+
+Il repository è adatto a scopi accademici, studio di algoritmi su grafi e analisi comparativa delle prestazioni.
 
 
 Punti salienti:
@@ -20,5 +34,14 @@ Punti salienti:
   - chunk,
   - bitset.
 
-- Il progetto si basa soprattutto sull'ottimizazione in memoria ed il confronto delle varie implementazioni, per questo motivo la versione multi-thread è stata implementata tramite l'uso di una libreria OpenMP in modo da semplificarne il processo.
+
+Obiettivi del progetto
+
+Valutare l’impatto delle diverse strutture dati sulle prestazioni della BFS.
+
+Confrontare implementazioni sequenziali e parallele.
+
+Analizzare i trade-off tra consumo di memoria e velocità di esecuzione.
+
+Studiare il comportamento dell’algoritmo su diverse tipologie di grafi.
 
